@@ -1,0 +1,12 @@
+# Uncompressed database & raw JSONL (packed as .db.gz and .jsonl.gz for git)
+majmu_al_fatawa.db
+majmu_al_fatawa.db-shm
+majmu_al_fatawa.db-wal
+all_pages.jsonl
+
+# Dependencies & temporary files
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

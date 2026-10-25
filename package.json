@@ -1,0 +1,23 @@
+{
+  "name": "majmu-al-fatawa",
+  "version": "1.0.0",
+  "description": "Complete bilingual Arabic-English dataset of Majmu' al-Fatawa by Ibn Taymiyyah (16,874 pages across 37 volumes)",
+  "main": "index.js",
+  "scripts": {
+    "unpack": "python unpack.py",
+    "scrape": "bun run scrape_majmu.ts"
+  },
+  "keywords": [
+    "islamic-studies",
+    "ibn-taymiyyah",
+    "majmu-al-fatawa",
+    "arabic-nlp",
+    "bilingual-corpus",
+    "hadith",
+    "fiqh",
+    "tafsir",
+    "dataset"
+  ],
+  "author": "Ibn Taymiyyah (compiled by Abd al-Rahman ibn Qasim)",
+  "license": "CC-BY-4.0"
+}
